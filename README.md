@@ -2,8 +2,6 @@
 
 > **100% offline, $0 cost Document AI** — extracts structured fields from tractor loan invoices and quotations using PaddleOCR, a fine-tuned YOLOv8n, and a local Qwen2.5-1.5B SLM.
 
-Built for the **IDFC GenAI · Convolve 4.0** hackathon. Runs entirely on your machine — no cloud APIs, no network calls, no paid services.
-
 ---
 
 ## ✨ What it does
@@ -207,15 +205,3 @@ The following large files are excluded from git and must be downloaded separatel
 | `train_data_idfc/` | private | IDFC hackathon dataset |
 
 The two YOLO `.pt` files (~5 MB each) **are** included in the repo.
-
----
-
-## 📝 License
-
-MIT — see [ATTRIBUTIONS.md](ATTRIBUTIONS.md) for third-party model licenses.
-
----
-
-<p align="center">
-  Built with ❤️ for IDFC GenAI · Convolve 4.0 &nbsp;|&nbsp; <a href="https://github.com/khushboocodes">@khushboocodes</a>
-</p>
