@@ -1,0 +1,17 @@
+# Inference-time settings for the signature/stamp YOLOv8n detector.
+#
+# Per-class confidence thresholds: filter detections below these floors
+# before passing to downstream stages. Higher = fewer false positives,
+# fewer true positives. Lower = the opposite.
+#
+# Defaults tuned to balance precision and recall for the IoU >= 0.5
+# evaluation gate. The validation harness (Phase 8) sweeps these to find
+# the optimum operating point on the labeled validation set.
+
+confidence_thresholds:
+  signature: 0.20
+  stamp: 0.25
+
+# IoU threshold for non-maximum suppression (NMS) — collapses overlapping
+# detections of the same class.
+nms_iou: 0.45

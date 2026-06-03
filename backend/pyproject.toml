@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "invoiceflow-backend"
+version = "0.1.0"
+description = "Offline Document AI pipeline for invoice field extraction (IDFC GenAI Convolve 4.0)"
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+authors = [{ name = "InvoiceFlow Team" }]
+license = { text = "MIT" }
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["utils*"]
+exclude = ["tests*", "scripts*", "notebooks*", "models*", "data*", "sample_output*", "docs*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-ra -q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

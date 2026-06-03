@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Bundled model weights (large; managed separately)
+models/*.pt
+models/*.gguf
+models/paddleocr/
+models/base/
+models/training_runs/
+
+# Local data outputs (mined, may be regenerated)
+data/pseudo_labels.json
+
+# Sample outputs
+sample_output/*.json
+!sample_output/.gitkeep
+
+# YOLO training artifacts
+runs/
+
+# OS
+.DS_Store
+Thumbs.db

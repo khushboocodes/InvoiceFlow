@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "entries": [
+    {"brand": "Captain", "model": "", "full_name": "Captain"},
+    {"brand": "Eicher", "model": "", "full_name": "Eicher"},
+    {"brand": "Escort", "model": "", "full_name": "Escort"},
+    {"brand": "Farmtrac", "model": "", "full_name": "Farmtrac"},
+    {"brand": "Force", "model": "", "full_name": "Force"},
+    {"brand": "HMT", "model": "", "full_name": "HMT"},
+    {"brand": "Indo Farm", "model": "", "full_name": "Indo Farm"},
+    {"brand": "John Deere", "model": "", "full_name": "John Deere"},
+    {"brand": "Kubota", "model": "", "full_name": "Kubota"},
+    {"brand": "Mahindra", "model": "", "full_name": "Mahindra"},
+    {"brand": "Massey Ferguson", "model": "", "full_name": "Massey Ferguson"},
+    {"brand": "MF", "model": "", "full_name": "MF"},
+    {"brand": "New Holland", "model": "", "full_name": "New Holland"},
+    {"brand": "Powertrac", "model": "", "full_name": "Powertrac"},
+    {"brand": "Preet", "model": "", "full_name": "Preet"},
+    {"brand": "Sonalika", "model": "", "full_name": "Sonalika"},
+    {"brand": "Standard", "model": "", "full_name": "Standard"},
+    {"brand": "Swaraj", "model": "", "full_name": "Swaraj"},
+    {"brand": "TAFE", "model": "", "full_name": "TAFE"},
+    {"brand": "VST", "model": "", "full_name": "VST"}
+  ]
+}

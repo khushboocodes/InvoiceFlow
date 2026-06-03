@@ -1,0 +1,5 @@
+# Demo bridge — separate from backend/requirements.txt because the bridge
+# is not part of submission.zip.
+fastapi==0.115.4
+uvicorn[standard]==0.32.0
+python-multipart==0.0.17

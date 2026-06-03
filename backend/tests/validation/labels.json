@@ -1,0 +1,335 @@
+{
+  "_comment": "Hand-labeled ground truth for the validation set.",
+  "documents": [
+    {
+      "doc_id": "172448470_3_pg15",
+      "fields": {
+        "dealer_name": "THE ORISSA AGRO INDUSTRIES CORPORATION LTD.",
+        "model_name": "Kubota MU5502 4WD",
+        "horse_power": 50,
+        "asset_cost": 1106506,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "172576446_2_pg26",
+      "fields": {
+        "dealer_name": "K D TRACTORS",
+        "model_name": "MAHINDRA YUVO TECH + 405 DI (HP-39)",
+        "horse_power": 39,
+        "asset_cost": 796000,
+        "signature_present": false,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "172615659_4_pg18",
+      "fields": {
+        "dealer_name": "SULTANIA TRACTORS",
+        "model_name": "Eicher Tractor Model 380 SP+",
+        "horse_power": 40,
+        "asset_cost": 660000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "172756379_1_pg4",
+      "fields": {
+        "dealer_name": "M/s. Nimar Motors",
+        "model_name": "MF 6026 Max Pro",
+        "horse_power": 26,
+        "asset_cost": 550000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "172903213_2_pg27",
+      "fields": {
+        "dealer_name": "SHREE KRUSHI TRACTORS",
+        "model_name": "Sonalika Tiger 42 4WD",
+        "horse_power": 45,
+        "asset_cost": 966174,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "172939577_3_pg7",
+      "fields": {
+        "dealer_name": "Raigarh Automobiles (P) Ltd.",
+        "model_name": "MAHINDRA TRACTOR 415 DI NBP",
+        "horse_power": 40,
+        "asset_cost": 710000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "172961598_1_pg14",
+      "fields": {
+        "dealer_name": "KISAN TRACTORS",
+        "model_name": "EICHER TRACTOR MODEL 485",
+        "horse_power": 45,
+        "asset_cost": 760000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "173145686_1_pg16",
+      "fields": {
+        "dealer_name": "National Motors",
+        "model_name": "Massey Ferguson 245 DI J Mahashakti",
+        "horse_power": 50,
+        "asset_cost": 710500,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "173588817_2_pg29",
+      "fields": {
+        "dealer_name": "TIWARI AUTOMOBILES",
+        "model_name": "EICHER TRACTOR MODEL 557",
+        "horse_power": 50,
+        "asset_cost": 950000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "173598485_4_pg17",
+      "fields": {
+        "dealer_name": "THE ODISHA AGRO INDUSTRIES CORPORATION LTD.",
+        "model_name": "POWERTRAC EURO 45 E5",
+        "horse_power": 47,
+        "asset_cost": 927453,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "173601204_1_pg10",
+      "fields": {
+        "dealer_name": "JASWANT SINGH & SONS",
+        "model_name": "MAHINDRA 575 DI XP Plus",
+        "horse_power": 47,
+        "asset_cost": 680000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "173643744_1_pg17",
+      "fields": {
+        "dealer_name": "HARSH ENTERPRISES",
+        "model_name": "New Escort Tractors PT-439",
+        "horse_power": 41,
+        "asset_cost": 550000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "173766989_1_pg6",
+      "fields": {
+        "dealer_name": "RAM TRACTORS",
+        "model_name": "New Holland Tractor 3630 TX Super+ 4WD",
+        "horse_power": 50,
+        "asset_cost": 1120000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "173996052_1_pg9",
+      "fields": {
+        "dealer_name": "SHEELA MOTORS",
+        "model_name": "Mahindra 555 Agri",
+        "horse_power": 50,
+        "asset_cost": 730000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "90018229277_2_v1_pg1",
+      "fields": {
+        "dealer_name": "Chimanadas Tractors",
+        "model_name": "Swaraj Tractor Model 744 XT",
+        "horse_power": 50,
+        "asset_cost": 820000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "90018455419_OTHERS_v2_pg1",
+      "fields": {
+        "dealer_name": "AJAY TRACTORS AND MOTORS",
+        "model_name": "New Holland Ford Tractor 3600-2",
+        "horse_power": 50,
+        "asset_cost": 750000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "90018721003_OTHERS_v1_pg1",
+      "fields": {
+        "dealer_name": "Shubham Motors And Tractors",
+        "model_name": "John Deere 5210",
+        "horse_power": 50,
+        "asset_cost": 900000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "90018750491_175077953_1_pg9",
+      "fields": {
+        "dealer_name": "Raju Machinery and Tractors",
+        "model_name": "Swaraj 855 FE",
+        "horse_power": 52,
+        "asset_cost": 820000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "90018790122_175101938_1_pg7",
+      "fields": {
+        "dealer_name": "Vishwakarma Krishi Seva Kendra",
+        "model_name": "Sonalika International DI 550IB",
+        "horse_power": 50,
+        "asset_cost": 960000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "90018791802_1_v1_pg1",
+      "fields": {
+        "dealer_name": "Baba Jagannath Tractors",
+        "model_name": "MF 245 DI",
+        "horse_power": 50,
+        "asset_cost": 800000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "90018792533_OTHERS_v1_pg1",
+      "fields": {
+        "dealer_name": "AK TRACTORS",
+        "model_name": "Mahindra OJA 2121 4WD",
+        "horse_power": 21,
+        "asset_cost": 633000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "90018816473_1_v1_pg1",
+      "fields": {
+        "dealer_name": "AMS TRACTORS",
+        "model_name": "Powertrac EURO-G28",
+        "horse_power": 28,
+        "asset_cost": 700000,
+        "signature_present": true,
+        "stamp_present": false
+      }
+    },
+    {
+      "doc_id": "90018935513_OTHERS_v2_pg1",
+      "fields": {
+        "dealer_name": "National Motors",
+        "model_name": "MF 1035 DI MAHASHAKTI",
+        "horse_power": 39,
+        "asset_cost": 581300,
+        "signature_present": true,
+        "stamp_present": false
+      }
+    },
+    {
+      "doc_id": "90019133518_OTHERS_v2_pg1",
+      "fields": {
+        "dealer_name": "SINGH FARMING SOLUTIONS",
+        "model_name": "John Deere 5405 4WD AC Cabin",
+        "horse_power": 63,
+        "asset_cost": 1900000,
+        "signature_present": true,
+        "stamp_present": false
+      }
+    },
+    {
+      "doc_id": "90019492324_2_v1_pg1",
+      "fields": {
+        "dealer_name": "KALER & GILL TRACTORS",
+        "model_name": "Swaraj 744 FE",
+        "horse_power": 48,
+        "asset_cost": 770000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "90019501081_OTHERS_v1_pg1",
+      "fields": {
+        "dealer_name": "Shiv Shakti Tractors",
+        "model_name": "MF 241 DI SONA",
+        "horse_power": 42,
+        "asset_cost": 750000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "90019537808_OTHERS_v1_pg1",
+      "fields": {
+        "dealer_name": "SHIVASHANKAR MARKETING",
+        "model_name": "NEW HOLLAND 3630 SUPER PLUS 49.5",
+        "horse_power": 50,
+        "asset_cost": 970000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "90019561961_1_v1_pg1",
+      "fields": {
+        "dealer_name": "KRUSHI TRACTORS",
+        "model_name": "Sonalika International DI 50 RX",
+        "horse_power": 52,
+        "asset_cost": 830000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "90019604068_OTHERS_v1_pg1",
+      "fields": {
+        "dealer_name": "M/s. DASHMESH AUTOMOBILES",
+        "model_name": "SWARAJ 744 FE",
+        "horse_power": 48,
+        "asset_cost": 710000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    },
+    {
+      "doc_id": "90019804134_4_v1_pg1",
+      "fields": {
+        "dealer_name": "Shubh Vinayak Tractors",
+        "model_name": "New Holland 3230 TX",
+        "horse_power": 42,
+        "asset_cost": 625000,
+        "signature_present": true,
+        "stamp_present": true
+      }
+    }
+  ]
+}

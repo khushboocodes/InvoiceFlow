@@ -1,0 +1,382 @@
+/* ============================================
+   Landing Page — 3D & Light Theme Utilities
+   ============================================ */
+
+/* Mesh gradient background (animated) */
+.mesh-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.mesh-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.5;
+  animation: blob-float 20s ease-in-out infinite;
+  will-change: transform;
+}
+
+.mesh-blob-1 {
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle at center, #c7bfff 0%, transparent 70%);
+  top: -200px;
+  left: -150px;
+  animation-delay: 0s;
+}
+
+.mesh-blob-2 {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle at center, #fbcfe8 0%, transparent 70%);
+  top: 30%;
+  right: -100px;
+  animation-delay: -7s;
+}
+
+.mesh-blob-3 {
+  width: 550px;
+  height: 550px;
+  background: radial-gradient(circle at center, #bae6fd 0%, transparent 70%);
+  bottom: -200px;
+  left: 30%;
+  animation-delay: -14s;
+}
+
+@keyframes blob-float {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(40px, -30px) scale(1.05);
+  }
+  66% {
+    transform: translate(-30px, 40px) scale(0.95);
+  }
+}
+
+/* Grid pattern overlay */
+.grid-pattern {
+  background-image:
+    linear-gradient(rgba(108, 92, 231, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(108, 92, 231, 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
+}
+
+/* Frosted glass nav */
+.frost-nav {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid rgba(229, 231, 235, 0.6);
+}
+
+/* 3D perspective container */
+.perspective-container {
+  perspective: 1200px;
+  perspective-origin: center;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+/* 3D card tilt on hover */
+.tilt-card {
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.4s ease;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.tilt-card:hover {
+  transform: rotateX(4deg) rotateY(-4deg) translateZ(20px);
+  box-shadow:
+    0 30px 60px -15px rgba(108, 92, 231, 0.2),
+    0 18px 36px -18px rgba(0, 0, 0, 0.15);
+}
+
+/* Floating animation */
+@keyframes float-y {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+.float {
+  animation: float-y 6s ease-in-out infinite;
+}
+
+.float-delayed {
+  animation: float-y 6s ease-in-out infinite;
+  animation-delay: -3s;
+}
+
+.float-slow {
+  animation: float-y 9s ease-in-out infinite;
+  animation-delay: -2s;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #6C5CE7 0%, #4F46E5 50%, #ec4899 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-subtle {
+  background: linear-gradient(135deg, #6C5CE7 0%, #4F46E5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Premium gradient button */
+.btn-primary-3d {
+  position: relative;
+  background: linear-gradient(135deg, #6C5CE7 0%, #4F46E5 100%);
+  color: white;
+  border-radius: 12px;
+  padding: 14px 28px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.4) inset,
+    0 -2px 0 rgba(0, 0, 0, 0.1) inset,
+    0 8px 20px -4px rgba(108, 92, 231, 0.5),
+    0 4px 8px -2px rgba(108, 92, 231, 0.3);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-primary-3d:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.4) inset,
+    0 -2px 0 rgba(0, 0, 0, 0.1) inset,
+    0 14px 30px -6px rgba(108, 92, 231, 0.6),
+    0 8px 16px -4px rgba(108, 92, 231, 0.35);
+}
+
+.btn-primary-3d:active {
+  transform: translateY(0);
+}
+
+.btn-secondary-3d {
+  background: white;
+  color: #1f2937;
+  border-radius: 12px;
+  padding: 14px 28px;
+  font-weight: 600;
+  border: 1px solid #e5e7eb;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.04),
+    0 4px 12px -2px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-secondary-3d:hover {
+  transform: translateY(-2px);
+  border-color: #c7bfff;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.04),
+    0 12px 24px -6px rgba(108, 92, 231, 0.15),
+    0 6px 12px -3px rgba(0, 0, 0, 0.05);
+}
+
+/* Frosted card */
+.frost-card {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(229, 231, 235, 0.7);
+  border-radius: 20px;
+}
+
+.frost-card-elevated {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(229, 231, 235, 0.8);
+  border-radius: 24px;
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.04),
+    0 20px 40px -12px rgba(108, 92, 231, 0.12),
+    0 10px 20px -8px rgba(0, 0, 0, 0.08);
+}
+
+/* Glow ring */
+.glow-ring {
+  position: relative;
+}
+
+.glow-ring::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  padding: 2px;
+  background: linear-gradient(135deg, #6C5CE7, #ec4899, #4F46E5);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.glow-ring:hover::before {
+  opacity: 1;
+}
+
+/* Marquee for trust bar */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee {
+  animation: marquee 30s linear infinite;
+}
+
+/* Pulse dot */
+@keyframes pulse-dot {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.4);
+    opacity: 0.6;
+  }
+}
+
+.pulse-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+/* JSON typing cursor */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* Pipeline arrow flow */
+@keyframes flow-right {
+  0% {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+}
+
+.flow-particle {
+  animation: flow-right 2s ease-in-out infinite;
+}
+
+/* Reveal on scroll baseline */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.reveal.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Section padding */
+.section {
+  padding: 96px 0;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 64px 0;
+  }
+}
+
+/* Container */
+.container-wide {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Bounding box overlay style for demo doc */
+.bbox-overlay {
+  position: absolute;
+  border: 2px solid;
+  border-radius: 6px;
+  pointer-events: none;
+  animation: bbox-pulse 2.5s ease-in-out infinite;
+}
+
+@keyframes bbox-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 currentColor;
+    opacity: 0.9;
+  }
+  50% {
+    box-shadow: 0 0 0 6px transparent;
+    opacity: 1;
+  }
+}
+
+.bbox-label {
+  position: absolute;
+  top: -24px;
+  left: 0;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* Stage badge */
+.stage-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(108, 92, 231, 0.08);
+  color: #6C5CE7;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid rgba(108, 92, 231, 0.2);
+}

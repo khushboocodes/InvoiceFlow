@@ -1,0 +1,79 @@
+# ─── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# ─── Virtual environments ────────────────────────────────────────────────────
+backend/.venv/
+.venv/
+venv/
+env/
+
+# ─── Node ────────────────────────────────────────────────────────────────────
+node_modules/
+dist/
+*.local
+
+# ─── Model weights (large binary files) ─────────────────────────────────────
+# Keep the fine-tuned sig/stamp YOLO weights and the base pretrained weight
+# because they are small enough (~5 MB each) and needed to run the pipeline.
+# Exclude the 3 GB Qwen SLM and the PaddleOCR model zoo.
+backend/models/qwen2.5-1.5b-instruct/
+backend/models/paddleocr/
+backend/models/*.gguf
+backend/models/*.gguf.part
+backend/models/training_runs/
+# Exclude any stray .pt files at the backend root
+backend/*.pt
+
+# ─── Training data (private dataset, not for public repo) ────────────────────
+train_data_idfc/
+
+# ─── Demo bridge – uploaded files, not source code ──────────────────────────
+demo/storage/
+
+# ─── Caches ──────────────────────────────────────────────────────────────────
+backend/models/.ocr_cache.json
+backend/models/.eval_cache.json
+
+# ─── Log / temp files ────────────────────────────────────────────────────────
+*.log
+*.tmp
+it.log
+debug_yolo.py
+backend/check_pass.py
+
+# ─── OS files ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDE / editor ────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ─── Secrets / env ───────────────────────────────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+
+# ─── Keep these gitkeep placeholders even inside excluded directories ─────────
+!backend/models/.gitkeep
+!backend/data/.gitkeep
+!backend/notebooks/.gitkeep
+!backend/scripts/.gitkeep
+!backend/docs/.gitkeep
+!backend/sample_output/.gitkeep

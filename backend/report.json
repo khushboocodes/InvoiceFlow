@@ -1,0 +1,1333 @@
+{
+  "docs_total": 30,
+  "docs_correct": 0,
+  "dla": 0.0,
+  "per_field_accuracy": {
+    "dealer_name": 0.3667,
+    "model_name": 0.4667,
+    "horse_power": 0.2667,
+    "asset_cost": 0.6,
+    "signature": 0.6333,
+    "stamp": 0.8333
+  },
+  "per_field_correct_total": {
+    "dealer_name": "11/30",
+    "model_name": "14/30",
+    "horse_power": "8/30",
+    "asset_cost": "18/30",
+    "signature": "19/30",
+    "stamp": "25/30"
+  },
+  "latency_sec": {
+    "p50": 9.3,
+    "p95": 17.67,
+    "max": 41.12
+  },
+  "confusion": {
+    "signature": {
+      "tp": 19,
+      "fp": 1,
+      "tn": 0,
+      "fn": 10
+    },
+    "stamp": {
+      "tp": 22,
+      "fp": 0,
+      "tn": 3,
+      "fn": 5
+    }
+  },
+  "per_doc_details": [
+    {
+      "doc_id": "172448470_3_pg15",
+      "doc_correct": false,
+      "elapsed_sec": 8.27,
+      "fields": {
+        "dealer_name": {
+          "predicted": "THE ORISSA AGRO INDUSTRIES CORPORATION LTD",
+          "ground_truth": "THE ORISSA AGRO INDUSTRIES CORPORATION LTD.",
+          "correct": true,
+          "confidence": 0.868
+        },
+        "model_name": {
+          "predicted": null,
+          "ground_truth": "Kubota MU5502 4WD",
+          "correct": false,
+          "confidence": 0.0
+        },
+        "horse_power": {
+          "predicted": null,
+          "ground_truth": 50,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "asset_cost": {
+          "predicted": 1106506,
+          "ground_truth": 1106506,
+          "correct": true,
+          "confidence": 0.562
+        },
+        "signature": {
+          "predicted_present": false,
+          "ground_truth_present": true,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "stamp": {
+          "predicted_present": false,
+          "ground_truth_present": true,
+          "correct": false,
+          "confidence": 0.0
+        }
+      }
+    },
+    {
+      "doc_id": "172576446_2_pg26",
+      "doc_correct": false,
+      "elapsed_sec": 9.69,
+      "fields": {
+        "dealer_name": {
+          "predicted": "K D TRACTORS K. D TRACTORS 321.Nilki Chokdi,Viramgam",
+          "ground_truth": "K D TRACTORS",
+          "correct": true,
+          "confidence": 0.917
+        },
+        "model_name": {
+          "predicted": "MAHINDRA Tech # 405 D1 HP. 39! Yu\u092ag 7,96,000",
+          "ground_truth": "MAHINDRA YUVO TECH + 405 DI (HP-39)",
+          "correct": true,
+          "confidence": 0.519
+        },
+        "horse_power": {
+          "predicted": 39,
+          "ground_truth": 39,
+          "correct": true,
+          "confidence": 0.741
+        },
+        "asset_cost": {
+          "predicted": 796000,
+          "ground_truth": 796000,
+          "correct": true,
+          "confidence": 0.609
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": false,
+          "correct": false,
+          "confidence": 0.397
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.71
+        }
+      }
+    },
+    {
+      "doc_id": "172615659_4_pg18",
+      "doc_correct": false,
+      "elapsed_sec": 6.98,
+      "fields": {
+        "dealer_name": {
+          "predicted": "TRACTORS",
+          "ground_truth": "SULTANIA TRACTORS",
+          "correct": true,
+          "confidence": 0.949
+        },
+        "model_name": {
+          "predicted": "Eicher",
+          "ground_truth": "Eicher Tractor Model 380 SP+",
+          "correct": true,
+          "confidence": 0.45
+        },
+        "horse_power": {
+          "predicted": 40,
+          "ground_truth": 40,
+          "correct": true,
+          "confidence": 0.834
+        },
+        "asset_cost": {
+          "predicted": 660000,
+          "ground_truth": 660000,
+          "correct": true,
+          "confidence": 0.338
+        },
+        "signature": {
+          "predicted_present": false,
+          "ground_truth_present": true,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.839
+        }
+      }
+    },
+    {
+      "doc_id": "172756379_1_pg4",
+      "doc_correct": false,
+      "elapsed_sec": 6.77,
+      "fields": {
+        "dealer_name": {
+          "predicted": "Motors Tractor Division' AUTHORISEDDEALER",
+          "ground_truth": "M/s. Nimar Motors",
+          "correct": false,
+          "confidence": 0.898
+        },
+        "model_name": {
+          "predicted": "MF 6o26 Mooc 60\u0967\u096b Mooc 550000",
+          "ground_truth": "MF 6026 Max Pro",
+          "correct": false,
+          "confidence": 0.51
+        },
+        "horse_power": {
+          "predicted": 29,
+          "ground_truth": 26,
+          "correct": false,
+          "confidence": 0.67
+        },
+        "asset_cost": {
+          "predicted": 550000,
+          "ground_truth": 550000,
+          "correct": true,
+          "confidence": 0.695
+        },
+        "signature": {
+          "predicted_present": false,
+          "ground_truth_present": true,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.882
+        }
+      }
+    },
+    {
+      "doc_id": "172903213_2_pg27",
+      "doc_correct": false,
+      "elapsed_sec": 8.98,
+      "fields": {
+        "dealer_name": {
+          "predicted": "oject to VYRAJuricdiction Jject to",
+          "ground_truth": "SHREE KRUSHI TRACTORS",
+          "correct": false,
+          "confidence": 0.75
+        },
+        "model_name": {
+          "predicted": "SONALIKA Smalke SkeTig8-2-wp-45+P Tis-4? - Ayu? Lh?",
+          "ground_truth": "Sonalika Tiger 42 4WD",
+          "correct": false,
+          "confidence": 0.47
+        },
+        "horse_power": {
+          "predicted": null,
+          "ground_truth": 45,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "asset_cost": {
+          "predicted": null,
+          "ground_truth": 966174,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.807
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.921
+        }
+      }
+    },
+    {
+      "doc_id": "172939577_3_pg7",
+      "doc_correct": false,
+      "elapsed_sec": 9.61,
+      "fields": {
+        "dealer_name": {
+          "predicted": "Subecl lo Raignh Junisdiction",
+          "ground_truth": "Raigarh Automobiles (P) Ltd.",
+          "correct": false,
+          "confidence": 0.581
+        },
+        "model_name": {
+          "predicted": "MAHINDRA 5 DIABR H.P. Ho. Ha",
+          "ground_truth": "MAHINDRA TRACTOR 415 DI NBP",
+          "correct": true,
+          "confidence": 0.491
+        },
+        "horse_power": {
+          "predicted": null,
+          "ground_truth": 40,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "asset_cost": {
+          "predicted": 710000,
+          "ground_truth": 710000,
+          "correct": true,
+          "confidence": 0.415
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.787
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.774
+        }
+      }
+    },
+    {
+      "doc_id": "172961598_1_pg14",
+      "doc_correct": false,
+      "elapsed_sec": 7.78,
+      "fields": {
+        "dealer_name": {
+          "predicted": "Ieaetors ISan",
+          "ground_truth": "KISAN TRACTORS",
+          "correct": false,
+          "confidence": 0.513
+        },
+        "model_name": {
+          "predicted": "'8 1epoW L5 Ikonao",
+          "ground_truth": "EICHER TRACTOR MODEL 485",
+          "correct": false,
+          "confidence": 0.519
+        },
+        "horse_power": {
+          "predicted": null,
+          "ground_truth": 45,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "asset_cost": {
+          "predicted": 760000,
+          "ground_truth": 760000,
+          "correct": true,
+          "confidence": 0.599
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.377
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.387
+        }
+      }
+    },
+    {
+      "doc_id": "173145686_1_pg16",
+      "doc_correct": false,
+      "elapsed_sec": 8.86,
+      "fields": {
+        "dealer_name": {
+          "predicted": "JP kpI6e",
+          "ground_truth": "National Motors",
+          "correct": false,
+          "confidence": 0.433
+        },
+        "model_name": {
+          "predicted": "MF-245DIJ-MAHASHAKTI MAHASHAKT 879488",
+          "ground_truth": "Massey Ferguson 245 DI J Mahashakti",
+          "correct": true,
+          "confidence": 0.576
+        },
+        "horse_power": {
+          "predicted": null,
+          "ground_truth": 50,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "asset_cost": {
+          "predicted": 710500,
+          "ground_truth": 710500,
+          "correct": true,
+          "confidence": 0.347
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.319
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.842
+        }
+      }
+    },
+    {
+      "doc_id": "173588817_2_pg29",
+      "doc_correct": false,
+      "elapsed_sec": 7.91,
+      "fields": {
+        "dealer_name": {
+          "predicted": "Quatation No.372 To",
+          "ground_truth": "TIWARI AUTOMOBILES",
+          "correct": false,
+          "confidence": 0.764
+        },
+        "model_name": {
+          "predicted": "50 ACCESSORIES EICHER ST.ENGINE/GENSET ECHER",
+          "ground_truth": "EICHER TRACTOR MODEL 557",
+          "correct": false,
+          "confidence": 0.635
+        },
+        "horse_power": {
+          "predicted": 50,
+          "ground_truth": 50,
+          "correct": true,
+          "confidence": 0.937
+        },
+        "asset_cost": {
+          "predicted": null,
+          "ground_truth": 950000,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.324
+        },
+        "stamp": {
+          "predicted_present": false,
+          "ground_truth_present": true,
+          "correct": false,
+          "confidence": 0.0
+        }
+      }
+    },
+    {
+      "doc_id": "173598485_4_pg17",
+      "doc_correct": false,
+      "elapsed_sec": 7.95,
+      "fields": {
+        "dealer_name": {
+          "predicted": "THE ODISHAAGRO INDUSTRIES CORPORATION LTD ODISHA AGRO",
+          "ground_truth": "THE ODISHA AGRO INDUSTRIES CORPORATION LTD.",
+          "correct": true,
+          "confidence": 0.936
+        },
+        "model_name": {
+          "predicted": null,
+          "ground_truth": "POWERTRAC EURO 45 E5",
+          "correct": false,
+          "confidence": 0.0
+        },
+        "horse_power": {
+          "predicted": null,
+          "ground_truth": 47,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "asset_cost": {
+          "predicted": 945300,
+          "ground_truth": 927453,
+          "correct": true,
+          "confidence": 0.618
+        },
+        "signature": {
+          "predicted_present": false,
+          "ground_truth_present": true,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "stamp": {
+          "predicted_present": false,
+          "ground_truth_present": true,
+          "correct": false,
+          "confidence": 0.0
+        }
+      }
+    },
+    {
+      "doc_id": "173601204_1_pg10",
+      "doc_correct": false,
+      "elapsed_sec": 6.17,
+      "fields": {
+        "dealer_name": {
+          "predicted": "JASWANT",
+          "ground_truth": "JASWANT SINGH & SONS",
+          "correct": true,
+          "confidence": 0.923
+        },
+        "model_name": {
+          "predicted": "Mahindra",
+          "ground_truth": "MAHINDRA 575 DI XP Plus",
+          "correct": true,
+          "confidence": 0.45
+        },
+        "horse_power": {
+          "predicted": 90,
+          "ground_truth": 47,
+          "correct": false,
+          "confidence": 0.738
+        },
+        "asset_cost": {
+          "predicted": 680000,
+          "ground_truth": 680000,
+          "correct": true,
+          "confidence": 0.48
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.321
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.398
+        }
+      }
+    },
+    {
+      "doc_id": "173643744_1_pg17",
+      "doc_correct": false,
+      "elapsed_sec": 8.38,
+      "fields": {
+        "dealer_name": {
+          "predicted": "HARSH ENTERPRISES",
+          "ground_truth": "HARSH ENTERPRISES",
+          "correct": true,
+          "confidence": 0.924
+        },
+        "model_name": {
+          "predicted": "To cost of one New Escort TractorsPT-439",
+          "ground_truth": "New Escort Tractors PT-439",
+          "correct": true,
+          "confidence": 0.574
+        },
+        "horse_power": {
+          "predicted": null,
+          "ground_truth": 41,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "asset_cost": {
+          "predicted": 550000,
+          "ground_truth": 550000,
+          "correct": true,
+          "confidence": 0.565
+        },
+        "signature": {
+          "predicted_present": false,
+          "ground_truth_present": true,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "stamp": {
+          "predicted_present": false,
+          "ground_truth_present": true,
+          "correct": false,
+          "confidence": 0.0
+        }
+      }
+    },
+    {
+      "doc_id": "173766989_1_pg6",
+      "doc_correct": false,
+      "elapsed_sec": 8.31,
+      "fields": {
+        "dealer_name": {
+          "predicted": "NEW HOLLAND New! \u0930\u093e\u092e",
+          "ground_truth": "RAM TRACTORS",
+          "correct": false,
+          "confidence": 0.926
+        },
+        "model_name": {
+          "predicted": null,
+          "ground_truth": "New Holland Tractor 3630 TX Super+ 4WD",
+          "correct": false,
+          "confidence": 0.0
+        },
+        "horse_power": {
+          "predicted": 50,
+          "ground_truth": 50,
+          "correct": true,
+          "confidence": 0.684
+        },
+        "asset_cost": {
+          "predicted": 1120000,
+          "ground_truth": 1120000,
+          "correct": true,
+          "confidence": 0.417
+        },
+        "signature": {
+          "predicted_present": false,
+          "ground_truth_present": true,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.741
+        }
+      }
+    },
+    {
+      "doc_id": "173996052_1_pg9",
+      "doc_correct": false,
+      "elapsed_sec": 8.19,
+      "fields": {
+        "dealer_name": {
+          "predicted": "SHEELA MOTORS MOtCRE",
+          "ground_truth": "SHEELA MOTORS",
+          "correct": true,
+          "confidence": 0.798
+        },
+        "model_name": {
+          "predicted": "Mahindra",
+          "ground_truth": "Mahindra 555 Agri",
+          "correct": true,
+          "confidence": 0.45
+        },
+        "horse_power": {
+          "predicted": null,
+          "ground_truth": 50,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "asset_cost": {
+          "predicted": null,
+          "ground_truth": 730000,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.372
+        },
+        "stamp": {
+          "predicted_present": false,
+          "ground_truth_present": true,
+          "correct": false,
+          "confidence": 0.0
+        }
+      }
+    },
+    {
+      "doc_id": "90018229277_2_v1_pg1",
+      "doc_correct": false,
+      "elapsed_sec": 9.64,
+      "fields": {
+        "dealer_name": {
+          "predicted": "Chiicios? aow!",
+          "ground_truth": "Chimanadas Tractors",
+          "correct": false,
+          "confidence": 0.623
+        },
+        "model_name": {
+          "predicted": null,
+          "ground_truth": "Swaraj Tractor Model 744 XT",
+          "correct": false,
+          "confidence": 0.0
+        },
+        "horse_power": {
+          "predicted": 50,
+          "ground_truth": 50,
+          "correct": true,
+          "confidence": 0.669
+        },
+        "asset_cost": {
+          "predicted": 820000,
+          "ground_truth": 820000,
+          "correct": true,
+          "confidence": 0.361
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.214
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.584
+        }
+      }
+    },
+    {
+      "doc_id": "90018455419_OTHERS_v2_pg1",
+      "doc_correct": false,
+      "elapsed_sec": 9.55,
+      "fields": {
+        "dealer_name": {
+          "predicted": "AJAY TRACTORS AND MOTORS NEW HOLLAND",
+          "ground_truth": "AJAY TRACTORS AND MOTORS",
+          "correct": true,
+          "confidence": 0.936
+        },
+        "model_name": {
+          "predicted": "Ford Tractor Mode! .360O",
+          "ground_truth": "New Holland Ford Tractor 3600-2",
+          "correct": true,
+          "confidence": 0.615
+        },
+        "horse_power": {
+          "predicted": 50,
+          "ground_truth": 50,
+          "correct": true,
+          "confidence": 0.64
+        },
+        "asset_cost": {
+          "predicted": null,
+          "ground_truth": 750000,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.683
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.765
+        }
+      }
+    },
+    {
+      "doc_id": "90018721003_OTHERS_v1_pg1",
+      "doc_correct": false,
+      "elapsed_sec": 9.25,
+      "fields": {
+        "dealer_name": {
+          "predicted": "Indla Pyt. Ltd",
+          "ground_truth": "Shubham Motors And Tractors",
+          "correct": false,
+          "confidence": 0.889
+        },
+        "model_name": {
+          "predicted": "No ....521.9. H.P. ..E.9",
+          "ground_truth": "John Deere 5210",
+          "correct": false,
+          "confidence": 0.629
+        },
+        "horse_power": {
+          "predicted": null,
+          "ground_truth": 50,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "asset_cost": {
+          "predicted": 900000,
+          "ground_truth": 900000,
+          "correct": true,
+          "confidence": 0.632
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.396
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.854
+        }
+      }
+    },
+    {
+      "doc_id": "90018750491_175077953_1_pg9",
+      "doc_correct": false,
+      "elapsed_sec": 8.72,
+      "fields": {
+        "dealer_name": {
+          "predicted": "Hih- Is I+n ifeh \u092d\u0947\u090b\u0909\u0909\u091c\u0948\u0928",
+          "ground_truth": "Raju Machinery and Tractors",
+          "correct": false,
+          "confidence": 0.613
+        },
+        "model_name": {
+          "predicted": "sWaRaJ \u0905\u0927\u0915\u0943\u0924 3nagalaabal-RRocac",
+          "ground_truth": "Swaraj 855 FE",
+          "correct": true,
+          "confidence": 0.49
+        },
+        "horse_power": {
+          "predicted": null,
+          "ground_truth": 52,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "asset_cost": {
+          "predicted": 830000,
+          "ground_truth": 820000,
+          "correct": true,
+          "confidence": 0.386
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.55
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.917
+        }
+      }
+    },
+    {
+      "doc_id": "90018790122_175101938_1_pg7",
+      "doc_correct": false,
+      "elapsed_sec": 6.78,
+      "fields": {
+        "dealer_name": {
+          "predicted": "WTeRNAt\u093e\u0920NA\u093e",
+          "ground_truth": "Vishwakarma Krishi Seva Kendra",
+          "correct": false,
+          "confidence": 0.689
+        },
+        "model_name": {
+          "predicted": "Sonalika International Di. A9..Lis Peeo",
+          "ground_truth": "Sonalika International DI 550IB",
+          "correct": true,
+          "confidence": 0.505
+        },
+        "horse_power": {
+          "predicted": null,
+          "ground_truth": 50,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "asset_cost": {
+          "predicted": 960000,
+          "ground_truth": 960000,
+          "correct": true,
+          "confidence": 0.695
+        },
+        "signature": {
+          "predicted_present": false,
+          "ground_truth_present": true,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.863
+        }
+      }
+    },
+    {
+      "doc_id": "90018791802_1_v1_pg1",
+      "doc_correct": false,
+      "elapsed_sec": 15.8,
+      "fields": {
+        "dealer_name": {
+          "predicted": "Baba Jagannath Tractors",
+          "ground_truth": "Baba Jagannath Tractors",
+          "correct": true,
+          "confidence": 0.798
+        },
+        "model_name": {
+          "predicted": "MF 945 D1 \u0967\u092a\u096b 56 H:p S\u096b H.?",
+          "ground_truth": "MF 245 DI",
+          "correct": false,
+          "confidence": 0.461
+        },
+        "horse_power": {
+          "predicted": null,
+          "ground_truth": 50,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "asset_cost": {
+          "predicted": 800000,
+          "ground_truth": 800000,
+          "correct": true,
+          "confidence": 0.497
+        },
+        "signature": {
+          "predicted_present": false,
+          "ground_truth_present": true,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.267
+        }
+      }
+    },
+    {
+      "doc_id": "90018792533_OTHERS_v1_pg1",
+      "doc_correct": false,
+      "elapsed_sec": 9.64,
+      "fields": {
+        "dealer_name": {
+          "predicted": "Wahindra",
+          "ground_truth": "AK TRACTORS",
+          "correct": false,
+          "confidence": 0.761
+        },
+        "model_name": {
+          "predicted": "mahindra Ie?/h 2? Rise. Ak.. Ak.. Tractors",
+          "ground_truth": "Mahindra OJA 2121 4WD",
+          "correct": false,
+          "confidence": 0.491
+        },
+        "horse_power": {
+          "predicted": 21,
+          "ground_truth": 21,
+          "correct": true,
+          "confidence": 0.84
+        },
+        "asset_cost": {
+          "predicted": 322401,
+          "ground_truth": 633000,
+          "correct": false,
+          "confidence": 0.37
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.785
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.965
+        }
+      }
+    },
+    {
+      "doc_id": "90018816473_1_v1_pg1",
+      "doc_correct": false,
+      "elapsed_sec": 9.67,
+      "fields": {
+        "dealer_name": {
+          "predicted": "ESCORTS",
+          "ground_truth": "AMS TRACTORS",
+          "correct": false,
+          "confidence": 0.947
+        },
+        "model_name": {
+          "predicted": "Powertrac",
+          "ground_truth": "Powertrac EURO-G28",
+          "correct": true,
+          "confidence": 0.45
+        },
+        "horse_power": {
+          "predicted": 29,
+          "ground_truth": 28,
+          "correct": true,
+          "confidence": 0.828
+        },
+        "asset_cost": {
+          "predicted": null,
+          "ground_truth": 700000,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.218
+        },
+        "stamp": {
+          "predicted_present": false,
+          "ground_truth_present": false,
+          "correct": true,
+          "confidence": 0.0
+        }
+      }
+    },
+    {
+      "doc_id": "90018935513_OTHERS_v2_pg1",
+      "doc_correct": false,
+      "elapsed_sec": 12.73,
+      "fields": {
+        "dealer_name": {
+          "predicted": "MASSEY-FERGUSON \u0905\u0927\u0915\u0924 ffl-3 \u092c\u0915\u0924\u093e \u092e\u0938\u0940 Lle j \u0915\u093f\u0928 \u0909\u092a\u0915\u0930\u0923",
+          "ground_truth": "National Motors",
+          "correct": false,
+          "confidence": 0.653
+        },
+        "model_name": {
+          "predicted": "TAFE \u0915\u093e\u092f\u093f\u0932\u092f \u0928\u0947\u0936\u0928\u0932 \u092e\u094b\u091f\u0938\u0940 'Sefne h? 1817",
+          "ground_truth": "MF 1035 DI MAHASHAKTI",
+          "correct": false,
+          "confidence": 0.559
+        },
+        "horse_power": {
+          "predicted": null,
+          "ground_truth": 39,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "asset_cost": {
+          "predicted": null,
+          "ground_truth": 581300,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "signature": {
+          "predicted_present": false,
+          "ground_truth_present": true,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "stamp": {
+          "predicted_present": false,
+          "ground_truth_present": false,
+          "correct": true,
+          "confidence": 0.0
+        }
+      }
+    },
+    {
+      "doc_id": "90019133518_OTHERS_v2_pg1",
+      "doc_correct": false,
+      "elapsed_sec": 17.67,
+      "fields": {
+        "dealer_name": {
+          "predicted": "SINGH FARMING SOLUTIONS",
+          "ground_truth": "SINGH FARMING SOLUTIONS",
+          "correct": true,
+          "confidence": 0.917
+        },
+        "model_name": {
+          "predicted": "HP...3 , 9000001 .HP",
+          "ground_truth": "John Deere 5405 4WD AC Cabin",
+          "correct": false,
+          "confidence": 0.512
+        },
+        "horse_power": {
+          "predicted": null,
+          "ground_truth": 63,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "asset_cost": {
+          "predicted": null,
+          "ground_truth": 1900000,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "signature": {
+          "predicted_present": false,
+          "ground_truth_present": true,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "stamp": {
+          "predicted_present": false,
+          "ground_truth_present": false,
+          "correct": true,
+          "confidence": 0.0
+        }
+      }
+    },
+    {
+      "doc_id": "90019492324_2_v1_pg1",
+      "doc_correct": false,
+      "elapsed_sec": 41.12,
+      "fields": {
+        "dealer_name": {
+          "predicted": "KALER & GILL TRACTORS GIL!",
+          "ground_truth": "KALER & GILL TRACTORS",
+          "correct": true,
+          "confidence": 0.916
+        },
+        "model_name": {
+          "predicted": "Swaraj",
+          "ground_truth": "Swaraj 744 FE",
+          "correct": true,
+          "confidence": 0.45
+        },
+        "horse_power": {
+          "predicted": null,
+          "ground_truth": 48,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "asset_cost": {
+          "predicted": null,
+          "ground_truth": 770000,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.513
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.258
+        }
+      }
+    },
+    {
+      "doc_id": "90019501081_OTHERS_v1_pg1",
+      "doc_correct": false,
+      "elapsed_sec": 9.52,
+      "fields": {
+        "dealer_name": {
+          "predicted": "RIq aifsc seel \u0936\u093fS\u0924 \u091f\u0947$\u091f\u0938",
+          "ground_truth": "Shiv Shakti Tractors",
+          "correct": false,
+          "confidence": 0.652
+        },
+        "model_name": {
+          "predicted": "TAFE",
+          "ground_truth": "MF 241 DI SONA",
+          "correct": false,
+          "confidence": 0.442
+        },
+        "horse_power": {
+          "predicted": null,
+          "ground_truth": 42,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "asset_cost": {
+          "predicted": 750000,
+          "ground_truth": 750000,
+          "correct": true,
+          "confidence": 0.519
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.366
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.89
+        }
+      }
+    },
+    {
+      "doc_id": "90019537808_OTHERS_v1_pg1",
+      "doc_correct": false,
+      "elapsed_sec": 9.56,
+      "fields": {
+        "dealer_name": {
+          "predicted": "Post NTDAOUNDT Village Post NTDAOVNDT Mob.No",
+          "ground_truth": "SHIVASHANKAR MARKETING",
+          "correct": false,
+          "confidence": 0.827
+        },
+        "model_name": {
+          "predicted": "NEW HOLLAND TRACTORS MODELS:",
+          "ground_truth": "NEW HOLLAND 3630 SUPER PLUS 49.5",
+          "correct": false,
+          "confidence": 0.274
+        },
+        "horse_power": {
+          "predicted": 42,
+          "ground_truth": 50,
+          "correct": false,
+          "confidence": 0.93
+        },
+        "asset_cost": {
+          "predicted": null,
+          "ground_truth": 970000,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.534
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.838
+        }
+      }
+    },
+    {
+      "doc_id": "90019561961_1_v1_pg1",
+      "doc_correct": false,
+      "elapsed_sec": 9.55,
+      "fields": {
+        "dealer_name": {
+          "predicted": "Dotlori!",
+          "ground_truth": "KRUSHI TRACTORS",
+          "correct": false,
+          "confidence": 0.761
+        },
+        "model_name": {
+          "predicted": "Sonalika International",
+          "ground_truth": "Sonalika International DI 50 RX",
+          "correct": true,
+          "confidence": 0.279
+        },
+        "horse_power": {
+          "predicted": null,
+          "ground_truth": 52,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "asset_cost": {
+          "predicted": 830000,
+          "ground_truth": 830000,
+          "correct": true,
+          "confidence": 0.709
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.385
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.967
+        }
+      }
+    },
+    {
+      "doc_id": "90019604068_OTHERS_v1_pg1",
+      "doc_correct": false,
+      "elapsed_sec": 9.34,
+      "fields": {
+        "dealer_name": {
+          "predicted": "AUTOMOBILES Auth Dealers SWARAJ Tractors,Harvester Combines,Forklifts",
+          "ground_truth": "M/s. DASHMESH AUTOMOBILES",
+          "correct": false,
+          "confidence": 0.885
+        },
+        "model_name": {
+          "predicted": "SWARAJ +++++++$+++++ d. OQQOIL 1lo",
+          "ground_truth": "SWARAJ 744 FE",
+          "correct": true,
+          "confidence": 0.453
+        },
+        "horse_power": {
+          "predicted": null,
+          "ground_truth": 48,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "asset_cost": {
+          "predicted": null,
+          "ground_truth": 710000,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.325
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.784
+        }
+      }
+    },
+    {
+      "doc_id": "90019804134_4_v1_pg1",
+      "doc_correct": false,
+      "elapsed_sec": 9.8,
+      "fields": {
+        "dealer_name": {
+          "predicted": "Roi ldonid cacel \u0936\u0941\u092d",
+          "ground_truth": "Shubh Vinayak Tractors",
+          "correct": false,
+          "confidence": 0.627
+        },
+        "model_name": {
+          "predicted": null,
+          "ground_truth": "New Holland 3230 TX",
+          "correct": false,
+          "confidence": 0.0
+        },
+        "horse_power": {
+          "predicted": 47,
+          "ground_truth": 42,
+          "correct": false,
+          "confidence": 0.944
+        },
+        "asset_cost": {
+          "predicted": null,
+          "ground_truth": 625000,
+          "correct": false,
+          "confidence": 0.0
+        },
+        "signature": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.841
+        },
+        "stamp": {
+          "predicted_present": true,
+          "ground_truth_present": true,
+          "correct": true,
+          "confidence": 0.55
+        }
+      }
+    }
+  ],
+  "errors": []
+}
