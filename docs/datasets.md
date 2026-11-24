@@ -33,6 +33,28 @@ The InvoiceFlow training and development corpus consists of $\approx 500$ authen
 +---------------------+-------------------+---------------------+------------------------------------+
 ```
 
+### 1.2 Supported OEM Tractor Manufacturers & Brand Coverage
+
+The dataset comprehensively covers proforma quotations from authorized and multi-brand dealerships representing all major tractor original equipment manufacturers (OEMs) operating in India:
+
+```
++----------------------------------------------------------------------------------------------------+
+|                                      OEM BRAND COVERAGE MATRIX                                     |
++---------------------+-------------------+---------------------+------------------------------------+
+| OEM Manufacturer    | Dataset Share %   | Key Models Captured in Dataset                           |
++---------------------+-------------------+---------------------+------------------------------------+
+| **Mahindra**        | ~28%              | 575 DI, 475 DI, 275 DI, 585 DI, Yuvo Tech+, OJA series    |
+| **Swaraj**          | ~22%              | 744 FE / XT, 735 FE, 855 FE, 724 XM, Target 625/630        |
+| **Massey Ferguson** | ~14%              | MF 241 DI, MF 1035 DI, MF 50 HP, MF 7250, MF 9500         |
+| **Sonalika**        | ~12%              | DI 745 III, DI 35, DI 60, Tiger 50, Sikander series        |
+| **Escorts/Powertrac** ~10%              | Powertrac 439 Plus, Euro 50, Farmtrac 60 Classic, FT 45    |
+| **John Deere**      | ~6%               | 5050 D, 5105, 5310, 5045 D PowerPro                        |
+| **Eicher**          | ~4%               | Eicher 380, Eicher 485, Eicher 242, Eicher 557             |
+| **New Holland**     | ~3%               | 3630 TX Super, 3230 TX, 3037 TX                            |
+| **Kubota & Others** | ~1%               | Kubota MU4501, B2441, Indo Farm 3048, Captain 200 DI       |
++---------------------+-------------------+---------------------+------------------------------------+
+```
+
 ---
 
 ## 2. Linguistic & Regional Distribution
