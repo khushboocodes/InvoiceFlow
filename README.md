@@ -72,6 +72,39 @@ The platform combines high-speed computer vision detection, GPU-accelerated OCR,
 
 ---
 
+## Technology Stack
+
+```
++----------------------------------------------------------------------------------------------------+
+|                                      FULL-STACK TECHNOLOGY MATRIX                                  |
++---------------------+------------------------------+-----------------------------------------------+
+| Layer               | Technology                   | Purpose & Implementation                      |
++---------------------+------------------------------+-----------------------------------------------+
+| **Frontend UI**     | React 18, TypeScript, Vite 6 | Modern responsive web app with interactive bbox|
+| **Styling & Motion**| Tailwind CSS v4, Motion      | High-performance utility styling & animations |
+| **Backend & API**   | FastAPI, Uvicorn, Python 3.11| High-throughput asynchronous REST bridge (8000)|
+| **Visual Canvas**   | Streamlit                    | Rapid review canvas for internal data audits  |
+| **Multimodal VLM**  | Qwen2.5-VL-3B-Instruct       | 4-bit NF4 local reasoning for handwriting/tables|
+| **VLM Runtime**     | Transformers, bitsandbytes   | Quantized offline local GPU inference (~2.25GB)|
+| **Vision Detection**| YOLOv8 (Ultralytics)         | Real-time detection of Signatures & Rubber Seals|
+| **OCR Engine**      | EasyOCR, PyTorch (CUDA 12.1) | GPU-accelerated text detection & recognition  |
+| **Image Processing**| OpenCV (cv2), Pillow, PyMuPDF| Hough deskew, CLAHE contrast & PDF rasterizer  |
+| **Data Validation** | Pydantic v2                  | Strict lending bounds & JSON Schema Draft-07  |
+| **String Matching** | RapidFuzz                    | Fast Levenshtein distance for OEM catalogues  |
+| **Spatial Geometry**| Shapely, NumPy, SciPy        | 2D spatial word graph & IoU polygon overlaps  |
+| **DevOps & QA**     | Pytest, Docker, Compose      | Automated regression test suite & air-gap env |
++---------------------+------------------------------+-----------------------------------------------+
+```
+
+### Detailed Component Breakdown:
+* **Frontend Web Application (`frontend/`):** React 18 SPA built with Vite and TypeScript, featuring drag-and-drop document ingestion, reactive state management (`documentStore`), and responsive canvas scaling for bounding box coordinate rendering.
+* **AI Bridge Server (`bridge_server.py`):** FastAPI asynchronous service bridging the browser client with the local AI model pipeline, streaming documents and returning normalized pixel bounding boxes.
+* **Deep Multimodal Core (`core/ocr/local_vlm.py`):** Self-hosted 4-bit quantized Vision-Language Model running in ~2.25 GB VRAM on NVIDIA CUDA GPUs, enabling complex visual reasoning without cloud latency or subscription costs.
+* **Computer Vision Detector (`core/vision/detector.py`):** Fine-tuned single-stage YOLOv8 network paired with dual-band HSV chromatic ink filtering for rubber stamps and cursive signatures.
+* **Data Contracts (`document_profiles/`):** Enterprise Pydantic v2 data models enforcing strict mathematical price checks, engine horsepower physical constraints, and OEM model registry normalization.
+
+---
+
 ## Model Accuracy & Benchmark Evaluation
 
 InvoiceFlow is evaluated on a frozen benchmark split of authentic rural Indian tractor dealership quotations under strict validation criteria (where **all 6 fields must simultaneously match** ground truth for a document to be marked successful):
