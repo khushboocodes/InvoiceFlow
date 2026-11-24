@@ -1,0 +1,111 @@
+{
+  "total_analyzed": 495,
+  "duplicate_clusters_found": 13,
+  "total_near_duplicate_files": 13,
+  "clusters": [
+    {
+      "canonical": "172679320_3_pg18.png",
+      "duplicate_count": 1,
+      "cluster": [
+        "172679320_3_pg18.png",
+        "172932638_3_pg1.png"
+      ]
+    },
+    {
+      "canonical": "172759522_3_pg2.png",
+      "duplicate_count": 1,
+      "cluster": [
+        "172759522_3_pg2.png",
+        "173727239_2_pg26.png"
+      ]
+    },
+    {
+      "canonical": "172904174_pg2.png",
+      "duplicate_count": 1,
+      "cluster": [
+        "172904174_pg2.png",
+        "172965689_pg3.png"
+      ]
+    },
+    {
+      "canonical": "173106837_1_pg41.png",
+      "duplicate_count": 1,
+      "cluster": [
+        "173106837_1_pg41.png",
+        "173210220_2_pg16.png"
+      ]
+    },
+    {
+      "canonical": "173313344_1_pg19.png",
+      "duplicate_count": 1,
+      "cluster": [
+        "173313344_1_pg19.png",
+        "173607761_2_pg32.png"
+      ]
+    },
+    {
+      "canonical": "90018694760_175394784_2_pg31.png",
+      "duplicate_count": 1,
+      "cluster": [
+        "90018694760_175394784_2_pg31.png",
+        "90018694760_175394784_2_pg34.png"
+      ]
+    },
+    {
+      "canonical": "90018711224_1_v2_pg1.png",
+      "duplicate_count": 1,
+      "cluster": [
+        "90018711224_1_v2_pg1.png",
+        "90018711224_OTHERS_v2_pg1.png"
+      ]
+    },
+    {
+      "canonical": "90018869256_OTHERS_v1_pg1.png",
+      "duplicate_count": 1,
+      "cluster": [
+        "90018869256_OTHERS_v1_pg1.png",
+        "90019735954_OTHERS_v1_pg1.png"
+      ]
+    },
+    {
+      "canonical": "90018912387_OTHERS_v1_pg1.png",
+      "duplicate_count": 1,
+      "cluster": [
+        "90018912387_OTHERS_v1_pg1.png",
+        "90018912387_OTHERS_v2_pg1.png"
+      ]
+    },
+    {
+      "canonical": "90018914372_175263381_1_pg18.png",
+      "duplicate_count": 1,
+      "cluster": [
+        "90018914372_175263381_1_pg18.png",
+        "90019664623_OTHERS_v1_pg1.png"
+      ]
+    },
+    {
+      "canonical": "90019290546_1_v1_pg1.png",
+      "duplicate_count": 1,
+      "cluster": [
+        "90019290546_1_v1_pg1.png",
+        "90019290546_1_v2_pg1.png"
+      ]
+    },
+    {
+      "canonical": "90019571048_1_v1_pg1.png",
+      "duplicate_count": 1,
+      "cluster": [
+        "90019571048_1_v1_pg1.png",
+        "90019571048_2_v1_pg1.png"
+      ]
+    },
+    {
+      "canonical": "90019675571_OTHERS_v1_pg1.png",
+      "duplicate_count": 1,
+      "cluster": [
+        "90019675571_OTHERS_v1_pg1.png",
+        "90019675571_OTHERS_v2_pg1.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# InvoiceFlow YOLOv8 Dataset Configuration
+path: C:/Users/loq/Downloads/InvoiceFlow- Document Intelligent System/datasets/yolo_data
+train: images/train
+val: images/val
+
+names:
+  0: signature
+  1: stamp
