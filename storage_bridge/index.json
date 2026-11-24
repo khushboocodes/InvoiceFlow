@@ -1,0 +1,237 @@
+{
+  "version": 1,
+  "documents": [
+    {
+      "id": "f2c54206",
+      "fileName": "90018680919_175122286_1_pg20.png",
+      "fileSize": "764.23 KB",
+      "fileType": "png",
+      "mimeType": "image/png",
+      "previewUrl": "http://127.0.0.1:8000/api/documents/f2c54206/file",
+      "status": "completed",
+      "confidence": 96,
+      "processingTime": "149.7s",
+      "language": "English",
+      "documentType": "Tractor Quotation",
+      "extractedFields": {
+        "dealerName": "SRI RAJ AGRI FARM EQUIPMENT",
+        "modelName": "Massey Ferguson 50 HP",
+        "horsePower": "50.0 HP",
+        "assetCost": "₹ 10,28,000",
+        "signatureDetected": true,
+        "stampDetected": false,
+        "signatureBbox": [
+          868,
+          1267,
+          1143,
+          1332
+        ],
+        "stampBbox": null,
+        "quotationNo": "—",
+        "date": "—",
+        "hypothecatedBank": "—",
+        "gstin": "—"
+      },
+      "uploadedAt": "2026-11-24T16:18:10.530977+00:00",
+      "_storageFile": "f2c54206.png",
+      "_extraction": {
+        "doc_id": "f2c54206",
+        "fields": {
+          "dealer_name": {
+            "value": "SRI RAJ AGRI FARM EQUIPMENT",
+            "confidence": 0.95
+          },
+          "model_name": {
+            "value": "Massey Ferguson 50 HP",
+            "confidence": 0.95
+          },
+          "horse_power": {
+            "value": 50.0,
+            "confidence": 0.95
+          },
+          "asset_cost": {
+            "value": 1028000.0,
+            "confidence": 0.95
+          },
+          "signature": {
+            "present": true,
+            "bbox": [
+              868,
+              1267,
+              1143,
+              1332
+            ],
+            "confidence": 0.79
+          },
+          "stamp": {
+            "present": false,
+            "bbox": null,
+            "confidence": 0.85
+          }
+        },
+        "confidence": 0.96,
+        "processing_time_sec": 149.7,
+        "cost_estimate_usd": 0.0,
+        "error": null
+      }
+    },
+    {
+      "id": "26cfca76",
+      "fileName": "90018680919_175122286_1_pg20.png",
+      "fileSize": "764.23 KB",
+      "fileType": "png",
+      "mimeType": "image/png",
+      "previewUrl": "http://127.0.0.1:8000/api/documents/26cfca76/file",
+      "status": "completed",
+      "confidence": 96,
+      "processingTime": "138.4s",
+      "language": "English",
+      "documentType": "Tractor Quotation",
+      "extractedFields": {
+        "dealerName": "SRI RAJ AGRI FARM EQUIPMENT",
+        "modelName": "Massey Ferguson 50 HP",
+        "horsePower": "50.0 HP",
+        "assetCost": "₹ 10,28,000",
+        "signatureDetected": true,
+        "stampDetected": false,
+        "signatureBbox": [
+          857,
+          1275,
+          1142,
+          1344
+        ],
+        "stampBbox": null,
+        "quotationNo": "—",
+        "date": "—",
+        "hypothecatedBank": "—",
+        "gstin": "—"
+      },
+      "uploadedAt": "2026-11-24T15:32:54.333271+00:00",
+      "_storageFile": "26cfca76.png",
+      "_extraction": {
+        "doc_id": "26cfca76",
+        "fields": {
+          "dealer_name": {
+            "value": "SRI RAJ AGRI FARM EQUIPMENT",
+            "confidence": 0.95
+          },
+          "model_name": {
+            "value": "Massey Ferguson 50 HP",
+            "confidence": 0.95
+          },
+          "horse_power": {
+            "value": 50.0,
+            "confidence": 0.95
+          },
+          "asset_cost": {
+            "value": 1028000.0,
+            "confidence": 0.95
+          },
+          "signature": {
+            "present": true,
+            "bbox": [
+              857,
+              1275,
+              1142,
+              1344
+            ],
+            "confidence": 0.79
+          },
+          "stamp": {
+            "present": false,
+            "bbox": null,
+            "confidence": 0.85
+          }
+        },
+        "confidence": 0.96,
+        "processing_time_sec": 138.43,
+        "cost_estimate_usd": 0.0,
+        "error": null
+      }
+    },
+    {
+      "id": "aca77277",
+      "fileName": "173689357_2_pg27.png",
+      "fileSize": "1384.79 KB",
+      "fileType": "png",
+      "mimeType": "image/png",
+      "previewUrl": "http://127.0.0.1:8000/api/documents/aca77277/file",
+      "status": "completed",
+      "confidence": 96,
+      "processingTime": "141.2s",
+      "language": "English",
+      "documentType": "Tractor Quotation",
+      "extractedFields": {
+        "dealerName": "PATIDAR TRACTORS",
+        "modelName": "SWARAJ 724 XM",
+        "horsePower": "26.5 HP",
+        "assetCost": "₹ 5,50,000",
+        "signatureDetected": true,
+        "stampDetected": true,
+        "signatureBbox": [
+          953,
+          1283,
+          1106,
+          1349
+        ],
+        "stampBbox": [
+          943,
+          1251,
+          1108,
+          1410
+        ],
+        "quotationNo": "—",
+        "date": "—",
+        "hypothecatedBank": "—",
+        "gstin": "—"
+      },
+      "uploadedAt": "2026-11-24T15:28:51.525160+00:00",
+      "_storageFile": "aca77277.png",
+      "_extraction": {
+        "doc_id": "aca77277",
+        "fields": {
+          "dealer_name": {
+            "value": "PATIDAR TRACTORS",
+            "confidence": 0.95
+          },
+          "model_name": {
+            "value": "SWARAJ 724 XM",
+            "confidence": 0.95
+          },
+          "horse_power": {
+            "value": 26.5,
+            "confidence": 0.95
+          },
+          "asset_cost": {
+            "value": 550000.0,
+            "confidence": 0.95
+          },
+          "signature": {
+            "present": true,
+            "bbox": [
+              839,
+              764,
+              882,
+              887
+            ],
+            "confidence": 0.82
+          },
+          "stamp": {
+            "present": true,
+            "bbox": [
+              818,
+              756,
+              922,
+              888
+            ],
+            "confidence": 0.82
+          }
+        },
+        "confidence": 0.96,
+        "processing_time_sec": 141.2,
+        "cost_estimate_usd": 0.0,
+        "error": null
+      }
+    }
+  ]
+}
