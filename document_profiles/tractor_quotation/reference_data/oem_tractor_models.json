@@ -1,0 +1,256 @@
+{
+  "version": "1.0.0",
+  "description": "Master OEM Tractor Models Catalogue for Indian Agricultural Machinery",
+  "models": [
+    {
+      "canonical_name": "Mahindra 575 DI SP Plus",
+      "brand": "Mahindra",
+      "series": "575",
+      "hp": 47.0,
+      "valid_hp_range": [45.0, 48.0],
+      "kw": 35.0,
+      "typical_price_range_inr": [680000.0, 780000.0],
+      "aliases": ["MAHINDRA 575", "575 DI", "M&M 575 DI", "575 DI SP PLUS", "MAHINDRA 575DI"]
+    },
+    {
+      "canonical_name": "Mahindra 475 DI SP Plus",
+      "brand": "Mahindra",
+      "series": "475",
+      "hp": 44.0,
+      "valid_hp_range": [42.0, 45.0],
+      "kw": 32.8,
+      "typical_price_range_inr": [640000.0, 720000.0],
+      "aliases": ["MAHINDRA 475", "475 DI", "475 DI SP PLUS", "MAHINDRA 475DI"]
+    },
+    {
+      "canonical_name": "Mahindra 275 DI TU",
+      "brand": "Mahindra",
+      "series": "275",
+      "hp": 39.0,
+      "valid_hp_range": [38.0, 40.0],
+      "kw": 29.1,
+      "typical_price_range_inr": [550000.0, 630000.0],
+      "aliases": ["MAHINDRA 275", "275 DI", "275 DI TU", "SARPANCH 275"]
+    },
+    {
+      "canonical_name": "Mahindra Arjun Novo 605 DI-i",
+      "brand": "Mahindra",
+      "series": "605",
+      "hp": 55.0,
+      "valid_hp_range": [55.0, 60.0],
+      "kw": 41.0,
+      "typical_price_range_inr": [850000.0, 990000.0],
+      "aliases": ["ARJUN 605", "NOVO 605", "MAHINDRA ARJUN 605", "ARJUN NOVO 605 DI"]
+    },
+    {
+      "canonical_name": "Swaraj 744 FE",
+      "brand": "Swaraj",
+      "series": "744",
+      "hp": 48.0,
+      "valid_hp_range": [45.0, 50.0],
+      "kw": 35.8,
+      "typical_price_range_inr": [690000.0, 790000.0],
+      "aliases": ["SWARAJ 744", "744 FE", "SWARAJ 744FE", "SWARAJ744", "744FE"]
+    },
+    {
+      "canonical_name": "Swaraj 744 XT",
+      "brand": "Swaraj",
+      "series": "744",
+      "hp": 50.0,
+      "valid_hp_range": [48.0, 52.0],
+      "kw": 37.3,
+      "typical_price_range_inr": [730000.0, 830000.0],
+      "aliases": ["SWARAJ 744 XT", "744 XT", "744XT", "SWARAJ 744XT"]
+    },
+    {
+      "canonical_name": "Swaraj 735 FE",
+      "brand": "Swaraj",
+      "series": "735",
+      "hp": 40.0,
+      "valid_hp_range": [38.0, 42.0],
+      "kw": 29.8,
+      "typical_price_range_inr": [580000.0, 670000.0],
+      "aliases": ["SWARAJ 735", "735 FE", "SWARAJ 735FE", "735FE"]
+    },
+    {
+      "canonical_name": "Swaraj 855 FE",
+      "brand": "Swaraj",
+      "series": "855",
+      "hp": 52.0,
+      "valid_hp_range": [50.0, 55.0],
+      "kw": 38.8,
+      "typical_price_range_inr": [780000.0, 890000.0],
+      "aliases": ["SWARAJ 855", "855 FE", "SWARAJ 855FE", "855FE"]
+    },
+    {
+      "canonical_name": "John Deere 5050 D",
+      "brand": "John Deere",
+      "series": "5050",
+      "hp": 50.0,
+      "valid_hp_range": [50.0, 50.0],
+      "kw": 37.3,
+      "typical_price_range_inr": [790000.0, 890000.0],
+      "aliases": ["JD 5050", "JD 5050D", "JOHN DEERE 5050", "JOHN DEERE 5050D", "5050D"]
+    },
+    {
+      "canonical_name": "John Deere 5105",
+      "brand": "John Deere",
+      "series": "5105",
+      "hp": 40.0,
+      "valid_hp_range": [40.0, 42.0],
+      "kw": 29.8,
+      "typical_price_range_inr": [650000.0, 740000.0],
+      "aliases": ["JD 5105", "JOHN DEERE 5105", "5105 2WD", "5105 4WD"]
+    },
+    {
+      "canonical_name": "John Deere 5310",
+      "brand": "John Deere",
+      "series": "5310",
+      "hp": 55.0,
+      "valid_hp_range": [55.0, 57.0],
+      "kw": 41.0,
+      "typical_price_range_inr": [880000.0, 1050000.0],
+      "aliases": ["JD 5310", "JOHN DEERE 5310", "5310 CRDI", "5310 4WD"]
+    },
+    {
+      "canonical_name": "Sonalika DI 745 III Sikander",
+      "brand": "Sonalika",
+      "series": "745",
+      "hp": 50.0,
+      "valid_hp_range": [48.0, 50.0],
+      "kw": 37.3,
+      "typical_price_range_inr": [680000.0, 770000.0],
+      "aliases": ["SONALIKA 745", "DI 745", "SONALIKA DI 745", "745 III SIKANDER", "DI 745 III"]
+    },
+    {
+      "canonical_name": "Sonalika DI 35 Sikander",
+      "brand": "Sonalika",
+      "series": "35",
+      "hp": 39.0,
+      "valid_hp_range": [38.0, 40.0],
+      "kw": 29.1,
+      "typical_price_range_inr": [540000.0, 620000.0],
+      "aliases": ["SONALIKA 35", "DI 35", "SONALIKA DI 35", "DI 35 SIKANDER"]
+    },
+    {
+      "canonical_name": "Sonalika DI 60 Sikander",
+      "brand": "Sonalika",
+      "series": "60",
+      "hp": 60.0,
+      "valid_hp_range": [58.0, 60.0],
+      "kw": 44.7,
+      "typical_price_range_inr": [860000.0, 980000.0],
+      "aliases": ["SONALIKA 60", "DI 60", "SONALIKA DI 60", "DI 60 SIKANDER"]
+    },
+    {
+      "canonical_name": "Eicher 368 Super DI",
+      "brand": "Eicher",
+      "series": "368",
+      "hp": 35.0,
+      "valid_hp_range": [34.0, 38.0],
+      "kw": 26.8,
+      "typical_price_range_inr": [550000.0, 660000.0],
+      "aliases": ["EICHER 368", "EICHER 365", "368 SUPER DI", "368 DI", "EICHER 368 DI", "368", "365"]
+    },
+    {
+      "canonical_name": "Eicher 548",
+      "brand": "Eicher",
+      "series": "548",
+      "hp": 48.0,
+      "valid_hp_range": [46.0, 50.0],
+      "kw": 35.8,
+      "typical_price_range_inr": [750000.0, 920000.0],
+      "aliases": ["EICHER 548", "548", "543", "EICHER 543", "548 DI", "EICHER 548 DI"]
+    },
+    {
+      "canonical_name": "Eicher 380 Super DI",
+      "brand": "Eicher",
+      "series": "380",
+      "hp": 40.0,
+      "valid_hp_range": [39.0, 40.0],
+      "kw": 29.8,
+      "typical_price_range_inr": [580000.0, 660000.0],
+      "aliases": ["EICHER 380", "380 SUPER DI", "EICHER 380 DI", "380 DI"]
+    },
+    {
+      "canonical_name": "Eicher 485 Super DI",
+      "brand": "Eicher",
+      "series": "485",
+      "hp": 45.0,
+      "valid_hp_range": [44.0, 45.0],
+      "kw": 33.6,
+      "typical_price_range_inr": [640000.0, 730000.0],
+      "aliases": ["EICHER 485", "485 SUPER DI", "EICHER 485 DI", "485 DI"]
+    },
+    {
+      "canonical_name": "Eicher 551 Super DI",
+      "brand": "Eicher",
+      "series": "551",
+      "hp": 49.0,
+      "valid_hp_range": [48.0, 50.0],
+      "kw": 36.5,
+      "typical_price_range_inr": [680000.0, 770000.0],
+      "aliases": ["EICHER 551", "551 SUPER DI", "EICHER 551 DI", "551 DI"]
+    },
+    {
+      "canonical_name": "Massey Ferguson 241 DI Maha Shakti",
+      "brand": "Massey Ferguson",
+      "series": "241",
+      "hp": 42.0,
+      "valid_hp_range": [41.0, 44.0],
+      "kw": 31.3,
+      "typical_price_range_inr": [630000.0, 720000.0],
+      "aliases": ["TAFE 241", "MF 241", "MASSEY 241", "241 DI", "241 MAHA SHAKTI", "MASSEY FERGUSON 241"]
+    },
+    {
+      "canonical_name": "Massey Ferguson 1035 DI",
+      "brand": "Massey Ferguson",
+      "series": "1035",
+      "hp": 36.0,
+      "valid_hp_range": [35.0, 38.0],
+      "kw": 26.8,
+      "typical_price_range_inr": [540000.0, 620000.0],
+      "aliases": ["TAFE 1035", "MF 1035", "M F 1035", "TAFE MF 1035", "MASSEY 1035", "1035 DI", "1035", "MASSEY FERGUSON 1035"]
+    },
+    {
+      "canonical_name": "Farmtrac 60 Powermaxx",
+      "brand": "Farmtrac",
+      "series": "60",
+      "hp": 55.0,
+      "valid_hp_range": [50.0, 55.0],
+      "kw": 41.0,
+      "typical_price_range_inr": [770000.0, 890000.0],
+      "aliases": ["FARMTRAC 60", "ESCORTS FARMTRAC 60", "FT 60", "60 POWERMAXX"]
+    },
+    {
+      "canonical_name": "Powertrac Euro 50",
+      "brand": "Powertrac",
+      "series": "50",
+      "hp": 50.0,
+      "valid_hp_range": [48.0, 50.0],
+      "kw": 37.3,
+      "typical_price_range_inr": [690000.0, 790000.0],
+      "aliases": ["POWERTRAC 50", "EURO 50", "ESCORTS POWERTRAC 50", "POWERTRAC EURO 50"]
+    },
+    {
+      "canonical_name": "Kubota MU4501",
+      "brand": "Kubota",
+      "series": "4501",
+      "hp": 45.0,
+      "valid_hp_range": [44.0, 45.0],
+      "kw": 33.6,
+      "typical_price_range_inr": [760000.0, 860000.0],
+      "aliases": ["KUBOTA 4501", "MU 4501", "MU4501 2WD", "MU4501 4WD"]
+    },
+    {
+      "canonical_name": "New Holland 3630 TX Plus",
+      "brand": "New Holland",
+      "series": "3630",
+      "hp": 55.0,
+      "valid_hp_range": [52.0, 55.0],
+      "kw": 41.0,
+      "typical_price_range_inr": [820000.0, 950000.0],
+      "aliases": ["NEW HOLLAND 3630", "3630 TX", "3630 TX PLUS", "NH 3630"]
+    }
+  ]
+}

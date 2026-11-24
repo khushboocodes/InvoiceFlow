@@ -1,0 +1,33 @@
+{
+  "brand_aliases": {
+    "john deere": "John Deere",
+    "johndeere": "John Deere",
+    "m&m": "Mahindra",
+    "mahindra": "Mahindra",
+    "mahindra & mahindra": "Mahindra",
+    "swaraj": "Swaraj",
+    "sonalika": "Sonalika",
+    "itl": "Sonalika",
+    "international tractors": "Sonalika",
+    "eicher": "Eicher",
+    "tafe": "Massey Ferguson",
+    "massey": "Massey Ferguson",
+    "massey ferguson": "Massey Ferguson",
+    "mf": "Massey Ferguson",
+    "farmtrac": "Farmtrac",
+    "powertrac": "Powertrac",
+    "escorts": "Farmtrac",
+    "kubota": "Kubota",
+    "new holland": "New Holland",
+    "nh": "New Holland",
+    "cnh": "New Holland",
+    "preet": "Preet",
+    "captain": "Captain",
+    "indo farm": "Indo Farm"
+  },
+  "implement_exclusions": [
+    "rotavator", "rotary tiller", "trolley", "trailer", "cultivator",
+    "mb plough", "plough", "harrow", "seed drill", "thresher",
+    "baler", "reaper", "loader", "dozer", "post hole digger"
+  ]
+}
