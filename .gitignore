@@ -1,0 +1,109 @@
+# ==============================================================================
+# INVOICEFLOW: WATERTIGHT GITIGNORE RULES
+# ==============================================================================
+
+# ─── Python Bytecode & Build Artifacts ────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# ─── Virtual Environments ────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ─── Node & Frontend Artifacts (if bundled) ───────────────────────────────────
+node_modules/
+.next/
+.nuxt/
+out/
+dist/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── Model Weights & Checkpoints (Heavy Binaries) ─────────────────────────────
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.engine
+*.gguf
+*.gguf.part
+checkpoints/
+models/
+weights/
+runs/
+
+# ─── Training & Holdout Datasets (Keep manifests only) ────────────────────────
+datasets/raw/
+datasets/holdout_test/
+datasets/processed/
+datasets/yolo_data/images/
+datasets/yolo_data/labels/*.cache
+train_data_idfc/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# ─── Storage Bridge & User Uploaded Documents ────────────────────────────────
+# Ignore all processed image/pdf uploads; preserve folder structure and schema
+storage_bridge/*.png
+storage_bridge/*.jpg
+storage_bridge/*.jpeg
+storage_bridge/*.pdf
+storage_bridge/*.webp
+storage/
+uploads/
+demo/storage/
+!storage_bridge/.gitkeep
+!storage_bridge/index.json
+
+# ─── Scratchpads & Intermediate Dumps ─────────────────────────────────────────
+scratch/
+temp/
+tmp/
+*.log
+it.log
+ocr_dump.log
+evaluation_report*.json
+sample_output*.json
+
+# ─── IDE & Editor Configurations ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ─── Operating System Metadata ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ─── Credentials, API Keys & Environment Variables ───────────────────────────
+.env
+.env.*
+*.pem
+*.key
+*.cert

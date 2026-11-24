@@ -1,0 +1,41 @@
+# ==============================================================================
+# INVOICEFLOW: PRODUCTION DEPENDENCIES
+# ==============================================================================
+
+# --- Core Deep Learning & Tensor Acceleration ---
+# Note: For CUDA GPU acceleration, install PyTorch with CUDA 12.1+:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.1.0
+torchvision>=0.16.0
+
+# --- Computer Vision & Visual Detection ---
+opencv-python>=4.8.0
+Pillow>=10.0.0
+PyMuPDF>=1.23.0
+ultralytics>=8.3.0
+
+# --- OCR Engines & Token Processing ---
+easyocr>=1.7.0
+rapidfuzz>=3.5.0
+shapely>=2.0.0
+
+# --- Multimodal Vision-Language Model (VLM Local Inference) ---
+transformers>=4.45.0
+accelerate>=0.30.0
+bitsandbytes>=0.43.0
+qwen-vl-utils>=0.0.8
+
+# --- Data Validation & Scientific Utilities ---
+pydantic>=2.5.0
+numpy>=1.24.0
+scipy>=1.11.0
+requests>=2.31.0
+
+# --- Web APIs, Serving & Dashboard ---
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9
+streamlit>=1.30.0
+
+# --- Testing & Quality Assurance ---
+pytest>=8.0.0

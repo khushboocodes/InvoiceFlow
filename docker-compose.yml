@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  invoiceflow:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: invoiceflow:latest
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    network_mode: "none"
+    volumes:
+      - ./datasets/raw:/data/input:ro
+      - ./docker_output:/data/output:rw
+    command: ["--input", "/data/input", "--output", "/data/output", "--limit", "10"]
